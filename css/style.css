@@ -6,6 +6,7 @@ body {
 
 img {
     border: white solid;
+    border-radius: 10%;
     background-color: black;
 }
 
@@ -39,12 +40,17 @@ a {
     text-align: center;
 }
 
-img:hover {
-    transform: scale(1.020);
-    transition: all 1s ease-out;
+.back button{
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 1px solid black;
 }
 
+img:hover {
+    transform: scale(1.040);
+    transition: all 1s ease-out;
+}
 .wb {
+
     border: 2px solid black;
 }
 
@@ -52,7 +58,7 @@ li {
     list-style-type: none;
 }
 
-.space {
+div.space {
     height: 500vh;
 }
 
@@ -64,10 +70,14 @@ div.line {
 
 div.copy {
     text-align: center;
-    color: rgb(88, 9, 9);
+    color: rgb(255, 255, 255);
     height: 20vh;
     margin: 0;
     padding: 10px;
     background-color: gray;
     text-align: center;
+}
+
+div span {
+    font-weight: 1000;
 }
