@@ -36,3 +36,23 @@ form {
 a {
     text-decoration: none;
 }
+
+.space {
+    height: 500vh;
+}
+
+div.line {
+    height: 1vh;
+    background-color: rgb(37, 33, 33);
+    margin: 0;
+}
+
+div.copy {
+    text-align: center;
+    color: rgb(88, 9, 9);
+    height: 20vh;
+    margin: 0;
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+}

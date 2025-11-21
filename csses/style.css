@@ -1,44 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Squada+One&display=swap');
-body{
+
+body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRw7xd4A6MgPJ4D8V0NBZvAjl51FUNKI3VKA&s);
 }
-img{
+
+img {
     border: white solid;
     background-color: black;
 }
-video{
+
+video {
     border: darksalmon solid;
     background-color: black;
 }
-h1{
+
+h1 {
     color: white;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     font-family: "SUSE Mono", sans-serif;
     text-align: center;
 }
-h2{
+
+h2 {
     color: red;
 }
 
-a{
+a {
     color: darkmagenta;
     font-family: "cedarville cursive", cursive;
     text-align: center;
     text-decoration: none;
 }
-.back{
+
+.back {
     color: darkmagenta;
     font-family: "cedarville cursive", cursive;
     font-weight: bold;
     text-align: center;
 }
-img:hover{
+
+img:hover {
     transform: scale(1.020);
     transition: all 1s ease-out;
 }
-.wb{
+
+.wb {
     border: 2px solid black;
 }
-li{
+
+li {
     list-style-type: none;
+}
+
+.space {
+    height: 500vh;
+}
+
+div.line {
+    height: 1vh;
+    background-color: rgb(37, 33, 33);
+    margin: 0;
+}
+
+div.copy {
+    text-align: center;
+    color: rgb(88, 9, 9);
+    height: 20vh;
+    margin: 0;
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
 }
