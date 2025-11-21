@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/022/033/134/small/seamless-feather-pattern-on-a-white-background-abstract-background-for-fabric-and-paper-design-seamless-feather-pattern-the-feathers-are-abstract-and-of-different-sizes-solid-blue-free-vector.jpg);
+    color: green;
+}
+
+h1 {
+    color: rgba(223, 28, 14, 0.7);
+    text-shadow: -1px -1px blue, -1px 1px blue, 1px -1px blue, 1px 1px blue;
+}
+
+form {
+    background-color: rgba(105, 53, 82, 0.500);
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+.imp {
+    list-style-type: "🌟";
+}
+
+.ob {
+    list-style-type: "⭐";
+}
+
+.back {
+    color: darkmagenta;
+    font-family: "cedarville cursive", cursive;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Squada+One&display=swap');
+
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/15/18/42/87/360_F_1518428750_bJHu3XB5F3BqP1gStEe7I9yNW09oW9CO.jpg);
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.777);
+    justify-self: center;
+}
+
+td {
+    border: 2px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+th {
+    border: 2px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(73, 117, 238);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    text-align: center;
+    font-family: "SUSE Mono", sans-serif;
+}
+
+h2 {
+    color: rgb(141, 48, 35);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    border: rgba(128, 255, 0, 0.500) 1px solid;
+}
+
+.back {
+    color: darkmagenta;
+    font-family: "cedarville cursive", cursive;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+span {
+    font-weight: 1000;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

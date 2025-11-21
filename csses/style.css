@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Squada+One&display=swap');
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRw7xd4A6MgPJ4D8V0NBZvAjl51FUNKI3VKA&s);
+}
+img{
+    border: white solid;
+    background-color: black;
+}
+video{
+    border: darksalmon solid;
+    background-color: black;
+}
+h1{
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-family: "SUSE Mono", sans-serif;
+    text-align: center;
+}
+h2{
+    color: red;
+}
+
+a{
+    color: darkmagenta;
+    font-family: "cedarville cursive", cursive;
+    text-align: center;
+    text-decoration: none;
+}
+.back{
+    color: darkmagenta;
+    font-family: "cedarville cursive", cursive;
+    font-weight: bold;
+    text-align: center;
+}
+img:hover{
+    transform: scale(1.020);
+    transition: all 1s ease-out;
+}
+.wb{
+    border: 2px solid black;
+}
+li{
+    list-style-type: none;
+}
