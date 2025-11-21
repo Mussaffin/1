@@ -80,3 +80,9 @@ div.copy {
 div span {
     font-weight: 1000;
 }
+*{
+    margin: 0;
+}
+main{
+    margin: 8px;
+}
